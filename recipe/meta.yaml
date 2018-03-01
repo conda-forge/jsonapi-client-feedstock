@@ -1,6 +1,6 @@
 {% set name = "jsonapi-client" %}
-{% set version = "0.9.3" %}
-{% set sha256 = "7e8563b59f408429ac943e9b6d060f2dfae1c61b774aefd1c456bac189da0b68" %}
+{% set version = "0.9.6" %}
+{% set sha256 = "4325240a8357147e410f3600ae224edbefeaaebed1e70bdf8776d4b5d7a3377d" %}
 
 package:
   name: {{ name|lower }}
