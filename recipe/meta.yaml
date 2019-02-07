@@ -1,6 +1,6 @@
 {% set name = "jsonapi-client" %}
-{% set version = "0.9.6" %}
-{% set sha256 = "4325240a8357147e410f3600ae224edbefeaaebed1e70bdf8776d4b5d7a3377d" %}
+{% set version = "0.9.7" %}
+{% set sha256 = "52099ddebcb40c014cadb17b2129320381b31aca76c74fb0de0568b51d7a86b3" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   skip: true  # [py < 36]
 
