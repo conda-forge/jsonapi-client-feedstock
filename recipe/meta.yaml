@@ -22,8 +22,8 @@ requirements:
   run:
     - aiohttp
     - jsonschema
-    - python
-    - requests >=3.6
+    - python >=3.6
+    - requests
 
 test:
   imports:
