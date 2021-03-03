@@ -18,12 +18,12 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - aiohttp
     - jsonschema
     - python
-    - requests
+    - requests >=3.6
 
 test:
   imports:
@@ -41,4 +41,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - sodre
     - emilhaegglund
