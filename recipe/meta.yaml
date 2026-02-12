@@ -1,5 +1,5 @@
 {% set name = "jsonapi-client" %}
-{% set version = "0.9.9" %}
+{% set version = "0.9.10" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jsonapi_client-{{ version }}.tar.gz
-  sha256: 348bb9efb5f98421f865f8258dae5aa781552a5910351ff578f084292e659cd1
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jsonapi_client-{{ version }}.tar.gz
+  sha256: 481550926ddf4a82fe166159f57de5236faa9a36ecc7433697d370dfe8994c93
 
 build:
   number: 0
